@@ -15,4 +15,4 @@ jobs:
     permissions:
       contents: read
       pull-requests: read
-    uses: portabletext/.github/.github/workflows/checks.yml@dcedcfd4071dd55ad063156f267186473354d699
+    uses: portabletext/.github/.github/workflows/checks.yml@main
