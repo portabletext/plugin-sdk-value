@@ -33,6 +33,11 @@
       "groupName": "react"
     },
     {
+      "description": "Group `@portabletext/*` updates so the editor, its peer range and the packages built from the same release move in one PR",
+      "matchPackageNames": ["@portabletext/*"],
+      "groupName": "portabletext"
+    },
+    {
       "description": "Group XState packages",
       "matchPackageNames": ["/xstate/"],
       "groupName": "xstate"
