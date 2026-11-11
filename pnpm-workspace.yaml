@@ -1,0 +1,43 @@
+minimumReleaseAge: 4320
+
+minimumReleaseAgeExclude:
+  - "@portabletext/*"
+  - "@sanity/*"
+  - "@types/*"
+  - "@typescript/*"
+  - "@vercel/stega"
+  - csstype
+  - groq-js
+  - react
+  - react-dom
+  - scheduler
+  - vite@7.3.2 || 7.3.5 || 8.3.3
+  - oxlint
+  - "@oxlint/*"
+  - oxc-transform-react
+  - "@oxc-transform-react/*"
+  - vitest@5.0.5
+  - "@vitest/browser@5.0.5"
+  - "@vitest/browser-playwright@5.0.5"
+  - "@vitest/mocker@5.0.5"
+  - "@vitest/pretty-format@5.0.5"
+  - "@vitest/spy@5.0.5"
+  - "@vitest/utils@5.0.5"
+  - "@vitest/coverage-istanbul@5.0.5"
+  - "@vitest/coverage-v8@5.0.5"
+  - "@vitest/ui@5.0.5"
+
+trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  - rxjs@7.8.2
+  - semver@6.3.1
+
+patchedDependencies:
+  "@microsoft/api-extractor": patches/@microsoft__api-extractor.patch
+  "@vitest/browser-playwright": patches/@vitest__browser-playwright.patch
+
+peerDependencyRules:
+  allowAny:
+    - react
+    - react-dom

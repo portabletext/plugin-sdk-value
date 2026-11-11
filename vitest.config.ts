@@ -6,9 +6,6 @@ export default defineConfig({
   test: {
     projects: [
       {
-        // Resolves the monorepo-only `@portabletext/editor/test*` specifiers
-        // through this package's tsconfig `paths`.
-        resolve: {tsconfigPaths: true},
         plugins: [react({compiler: {target: '19'}})],
         test: {
           name: 'browser',
@@ -33,9 +30,6 @@ export default defineConfig({
         },
       },
       {
-        // Resolves the monorepo-only `@portabletext/editor/test*` specifiers
-        // through this package's tsconfig `paths`.
-        resolve: {tsconfigPaths: true},
         plugins: [],
         test: {
           name: 'unit',
