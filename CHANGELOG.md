@@ -1,5 +1,13 @@
 # Changelog
 
+## 8.1.21
+
+### Patch Changes
+
+- [#2](https://github.com/portabletext/plugin-sdk-value/pull/2) [`dffbf11`](https://github.com/portabletext/plugin-sdk-value/commit/dffbf111d87993a48a1229c4a222b95286cdbab4) Thanks [@christianhg](https://github.com/christianhg)! - fix: link the package to its own repository
+  
+  The package now lives in its own repository at portabletext/plugin-sdk-value, and its npm page links there. Its code is unchanged.
+
 ## 8.1.20
 
 ### Patch Changes
