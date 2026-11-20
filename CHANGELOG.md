@@ -1,5 +1,19 @@
 # Changelog
 
+## 8.1.22
+
+### Patch Changes
+
+- [#10](https://github.com/portabletext/plugin-sdk-value/pull/10) [`3721840`](https://github.com/portabletext/plugin-sdk-value/commit/3721840bf5079c0a4789e98c016efe15e645c6ee) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update portabletext
+
+- [#9](https://github.com/portabletext/plugin-sdk-value/pull/9) [`be58d7c`](https://github.com/portabletext/plugin-sdk-value/commit/be58d7cc228fac1c57d0790174b7c0f19d95030a) Thanks [@christianhg](https://github.com/christianhg)! - fix: point the npm homepage to www.portabletext.org
+  
+  The package's npm page now links to https://www.portabletext.org.
+
+- [#15](https://github.com/portabletext/plugin-sdk-value/pull/15) [`3336663`](https://github.com/portabletext/plugin-sdk-value/commit/33366638354a38f5e4607c403ee1e64960d1ad06) Thanks [@christianhg](https://github.com/christianhg)! - fix: list `portable-text`, `portable-text-editor` and `sanity` in the npm keywords of @portabletext/plugin-sdk-value
+  
+  npm search and keyword filters now find it under `portable-text`, `portable-text-editor` and `sanity`. It no longer lists `portabletext`.
+
 ## 8.1.21
 
 ### Patch Changes
