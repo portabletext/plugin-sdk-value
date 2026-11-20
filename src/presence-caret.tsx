@@ -22,7 +22,7 @@ const DOT_SIZE = 6
  * Picks a stable colour for a participant.
  *
  * Keyed on the user rather than the session, so one person in two tabs draws two
- * carets in the same colour. The Studio colours by user for the same reason.
+ * carets in the same colour. Sanity Studio colours by user for the same reason.
  *
  * @public
  */

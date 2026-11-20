@@ -5,7 +5,7 @@
 Two-way synchronization between a Portable Text Editor and a field in a Sanity
 document, plus presence and inline comments: other people's carets show up in
 the field and the local user's caret shows up for them, and comment threads
-anchored to text draw as highlights, all interoperating with the Studio.
+anchored to text draw as highlights, all interoperating with Sanity Studio.
 
 ## Installation
 
@@ -79,7 +79,8 @@ document in sync.
 Comment threads anchored to text in the field draw as highlights, and new
 threads can be started on the current selection. The composer UI stays with the
 app, the same split presence uses for carets. Comments are written in the shape
-Sanity Studio stores, so threads round-trip between an SDK app and the Studio.
+Sanity Studio stores, so threads round-trip between an SDK app and Sanity
+Studio.
 
 `useSDKCommentDecorations` returns `RangeDecoration[]` for the open threads on
 the field. Pass it through `rangeDecorations`, which `SDKPortableTextEditable`
@@ -123,7 +124,7 @@ await createInlineComment({message})
 
 Highlights follow the text while the user types, and a highlight whose text is
 deleted or rewritten beyond recognition is dropped rather than drawn on the
-wrong words. Resolved threads draw nothing, matching the Studio.
+wrong words. Resolved threads draw nothing, matching Sanity Studio.
 
 ### Rendering the editable yourself
 
@@ -185,7 +186,7 @@ function MyEditor(props: DocumentHandle) {
 Carets are drawn with the built-in component unless you pass `renderCursor`, and
 are collapsed to a single point at the participant's focus. Presence
 answers where someone is, so decorating their whole selection would highlight
-text the local user never selected. The Studio does the same.
+text the local user never selected. Sanity Studio does the same.
 
 Participants are counted by session, not by person. The same user in two tabs
 draws two carets, in the same colour. Group by `user.sanityUserId` in your own
@@ -196,7 +197,8 @@ The local user is never included, so an app does not draw its own caret.
 Which document is reported follows the handle's `perspective`, or the ambient one
 from `ResourceProvider`. Pass the plain document id and let the perspective
 select the draft, the published document, or a release version. This matters for
-the Studio, whose field indicators compare the exact document id its form is on.
+the Sanity Studio form, whose field indicators compare the exact document id
+it is on.
 
 ## Requirements
 

@@ -733,8 +733,8 @@ async function collideAndSettle(options: {
  * (formatting) commits before another client's text append into the same
  * span, the append's diff-match-patch hunk no longer matches either half
  * at the server and is dropped. Recovering the text would need operational
- * rebase of the in-flight patch (what `@sanity/mutate` does in the
- * Studio). The combo must still converge to valid Portable Text; only the
+ * rebase of the in-flight patch (what `@sanity/mutate` does in Sanity
+ * Studio). The combo must still converge to valid Portable Text. Only the
  * marker-survival assertion is relaxed.
  */
 const KNOWN_MARKER_LOSS: Array<{

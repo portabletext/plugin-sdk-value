@@ -15,7 +15,7 @@ import {
 import {arrayifyPath} from './plugin.sdk-value'
 
 /**
- * How the Studio stores an inline comment's anchor: per Portable Text block the
+ * How Sanity stores an inline comment's anchor: per Portable Text block the
  * selection touches, the block's entire plain text with these two private-use
  * characters inserted where the selection starts and ends. Text rather than
  * offsets, so the anchor can be re-found after the text around it changes.
@@ -34,7 +34,7 @@ const COMMENT_INDICATORS_REGEX = new RegExp(
 const CHILD_SYMBOL = '\uF0D0'
 
 /**
- * Kept from the Studio implementation: high enough to avoid re-anchoring onto
+ * Kept from the Sanity implementation: high enough to avoid re-anchoring onto
  * the wrong occurrence of a repeated word, low enough not to hurt.
  */
 const DMP_MARGIN = 15
@@ -151,10 +151,10 @@ function diffApply(current: string, patches: Patch[]): string {
 /**
  * Finds each stored anchor in the current editor value.
  *
- * A direct port of the Studio's `buildRangeDecorationSelectionsFromComments`,
- * minus its Studio-only inputs. The stored text is diffed against the block's
- * current text, so an anchor survives edits around it and inside it up to a
- * similarity threshold. An anchor whose text is gone, or changed beyond
+ * A direct port of Sanity's `buildRangeDecorationSelectionsFromComments`, minus
+ * the inputs only Sanity Studio has. The stored text is diffed against the
+ * block's current text, so an anchor survives edits around it and inside it up
+ * to a similarity threshold. An anchor whose text is gone, or changed beyond
  * recognition, is dropped rather than drawn somewhere wrong.
  *
  * Live tracking while the user types is not this function's job: the editor's
@@ -210,7 +210,7 @@ export function resolveCommentSelections(
         endIndex,
       )
       const {levenshtein} = diffText(newCommentedText, oldCommentedText)
-      // Kept from the Studio, oddity included: only the *old* length is halved.
+      // Kept from Sanity, oddity included: only the *old* length is halved.
       const threshold = Math.round(
         newCommentedText.length + oldCommentedText.length / 2,
       )
