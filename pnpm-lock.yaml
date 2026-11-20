@@ -54,8 +54,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       '@portabletext/test':
-        specifier: ^2.1.3
-        version: 2.1.3
+        specifier: ^3.0.0
+        version: 3.0.0
       '@rexxars/bundle-stats':
         specifier: ^2.0.1
         version: 2.0.1
@@ -1299,8 +1299,12 @@ packages:
     resolution: {integrity: sha512-Th8x0I21GDDv+yQEqF1w/G9iuyLkFdUM424VSSCCdZRSnfor2m23m+GFdf3pVTte6TPOzu4Ku89FwqyRRJ2vxQ==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/test@2.1.3':
-    resolution: {integrity: sha512-0pXOv5nASPMpeQlnphoGsOpP/mi/gX80hSbpAdqvtZ6hmeUNP9GWCwlOcGXJWAW4cVeEd28w+wPYbvaBNMs9fA==}
+  '@portabletext/schema@3.1.1':
+    resolution: {integrity: sha512-GR6KBbTYS6YAc7b9rYecqRbLmhUXeGEOCvA3qUs6dKariACBhuBM+CUtakbwyrnioQknpOeI8J+jFOFJka3vXw==}
+    engines: {node: '>=22.12'}
+
+  '@portabletext/test@3.0.0':
+    resolution: {integrity: sha512-fXVit5uod4EG1vFaXIYAKGE6bM7TED8bl09lbbO3GFzfSCl4B7HS4mCaUJMpFyCU/hUa4Ey5+GsK78z+hts3tg==}
     engines: {node: '>=22.12'}
 
   '@portabletext/to-html@6.0.0':
@@ -1627,8 +1631,8 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@textspec/notation@1.0.2':
-    resolution: {integrity: sha512-xvqE3lJPRBqsqN1WvJ0FftSBOZTzjNz7+iHdy++/D+klf/MxpJTE7IPPzL467cTXK3iqvc7QO0C5bV3BfufgpQ==}
+  '@textspec/notation@2.0.0':
+    resolution: {integrity: sha512-hbFTSOV57gbKsdNsv0JYqCeWjWNDzigHgHWHbjh28SBhzgPA4h9XL67/j5zijkYzAQ0iDRegzz8e5rpe0FNgQw==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
   '@tsdown/css@0.22.14':
@@ -4554,10 +4558,12 @@ snapshots:
 
   '@portabletext/schema@3.1.0': {}
 
-  '@portabletext/test@2.1.3':
+  '@portabletext/schema@3.1.1': {}
+
+  '@portabletext/test@3.0.0':
     dependencies:
-      '@portabletext/schema': 3.1.0
-      '@textspec/notation': 1.0.2
+      '@portabletext/schema': 3.1.1
+      '@textspec/notation': 2.0.0
 
   '@portabletext/to-html@6.0.0':
     dependencies:
@@ -4932,7 +4938,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@textspec/notation@1.0.2': {}
+  '@textspec/notation@2.0.0': {}
 
   '@tsdown/css@0.22.14(jiti@2.7.0)(postcss@8.5.30)(tsdown@0.22.14)(tsx@4.23.12)(yaml@2.9.1)':
     dependencies:
