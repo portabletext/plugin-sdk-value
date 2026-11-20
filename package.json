@@ -6,7 +6,9 @@
     "@sanity/sdk",
     "@sanity/sdk-react",
     "plugin",
-    "portabletext",
+    "portable-text",
+    "portable-text-editor",
+    "sanity",
     "sdk",
     "sync",
     "value"
