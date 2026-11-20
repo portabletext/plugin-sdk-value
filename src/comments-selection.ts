@@ -26,10 +26,10 @@ export interface BuiltSelection {
   /**
    * The path of the array holding the selected blocks, relative to the editor.
    * Empty for blocks at the top level. Comments anchor on the containing array,
-   * matching what the Studio stores.
+   * matching what Sanity stores.
    */
   containerPath: Path
-  /** The anchor in the Studio's stored shape, ready to pass to `createComment`. */
+  /** The anchor in Sanity's stored shape, ready to pass to `createComment`. */
   selection: StoredTextSelection
 }
 
@@ -38,7 +38,7 @@ export interface BuiltSelection {
  *
  * Per selected block, the block's entire plain text with the selection
  * boundaries marked by the two indicator characters. The write-time mirror of
- * `resolveCommentSelections`, and deliberately built the way the Studio builds
+ * `resolveCommentSelections`, and deliberately built the way Sanity builds
  * it so a comment written here re-anchors there and back.
  *
  * Returns `null` when there is nothing commentable: a collapsed selection,

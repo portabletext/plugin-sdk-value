@@ -144,8 +144,8 @@ describe(buildStoredSelection.name, () => {
   })
 
   test('what it writes, the reader finds again', () => {
-    // The round trip is the point of matching the Studio's format: written
-    // here, resolved by the same code path that resolves Studio comments.
+    // The round trip is the point of matching Sanity's format: written
+    // here, resolved by the same code path that resolves Sanity comments.
     const foo = block('b1', [span('s1', 'foo bar baz')])
     const built = buildStoredSelection({
       selection: {anchor: point('b1', 's1', 4), focus: point('b1', 's1', 7)},

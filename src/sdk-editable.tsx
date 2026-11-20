@@ -179,8 +179,8 @@ export function resolveCursorRenderer(
 
 /**
  * Appends the presence carets to whatever decorations the caller passed, so
- * theirs survive. The Studio merges the same way. When carets are switched off
- * the caller's own decorations pass straight through.
+ * theirs survive. Sanity Studio merges the same way. When carets are switched
+ * off the caller's own decorations pass straight through.
  *
  * @internal
  */

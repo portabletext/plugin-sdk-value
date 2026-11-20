@@ -95,7 +95,7 @@ export interface UseSDKCommentDecorationsOptions extends DocumentHandle {
  *
  * Suspends while the document's comments load, like every SDK read hook.
  *
- * Resolved threads draw nothing: this mirrors the Studio, where resolving a
+ * Resolved threads draw nothing: this mirrors Sanity Studio, where resolving a
  * thread removes its highlight from the text.
  *
  * @public
@@ -248,8 +248,8 @@ function getCommentableSelection(
  * Lets the app author inline comments on a Portable Text field.
  *
  * The plugin captures the selection and writes the comment; the composer UI is
- * the app's, the same split the Studio and Canvas use. Comments are written in
- * the shape the Studio stores, so a thread started here shows up there.
+ * the app's, the same split Sanity Studio and Canvas use. Comments are written
+ * in the shape Sanity Studio stores, so a thread started here shows up there.
  *
  * @public
  */

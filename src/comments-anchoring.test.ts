@@ -7,10 +7,10 @@ import {
 } from './comments-anchoring'
 
 /**
- * The scenarios are ported from the Studio's
+ * The scenarios are ported from Sanity's
  * `buildRangeDecorationSelectionsFromComments` suite, fixtures included, so the
- * two implementations can be diffed against the same cases. One known gap the
- * Studio's suite also carries is pinned with `test.fails` below.
+ * two implementations can be diffed against the same cases. One known gap that
+ * Sanity's suite also carries is pinned with `test.fails` below.
  */
 
 function span(_key: string, text: string) {
@@ -166,7 +166,7 @@ describe(resolveCommentSelections.name, () => {
     expect(resolve(value, stored(MARKED))).toEqual([])
   })
 
-  // A known gap, carried by the Studio's own suite too: text typed
+  // A known gap, carried by Sanity's own suite too: text typed
   // immediately after the range is absorbed into it. Pinned with `fails` so
   // this flips loudly if the algorithm ever gains the behaviour.
   test.fails('an edit immediately after the range does not expand it', () => {
