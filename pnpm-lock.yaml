@@ -17,8 +17,8 @@ importers:
   .:
     dependencies:
       '@portabletext/patches':
-        specifier: ^3.0.5
-        version: 3.0.5
+        specifier: ^3.0.6
+        version: 3.0.6
       '@sanity/diff-match-patch':
         specifier: ^3.2.1
         version: 3.2.1
@@ -48,14 +48,14 @@ importers:
         specifier: ^1.62.1
         version: 1.62.1
       '@portabletext/editor':
-        specifier: ^8.2.14
-        version: 8.2.14(@types/react@19.2.17)(react@19.3.1)
+        specifier: ^8.2.15
+        version: 8.2.15(@types/react@19.2.17)(react@19.3.1)
       '@portabletext/schema':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.1.1
+        version: 3.1.1
       '@portabletext/test':
-        specifier: ^2.1.3
-        version: 2.1.3
+        specifier: ^2.1.4
+        version: 2.1.4
       '@rexxars/bundle-stats':
         specifier: ^2.0.1
         version: 2.0.1
@@ -1273,34 +1273,34 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@portabletext/editor@8.2.14':
-    resolution: {integrity: sha512-j8vp8oNaRS+0D9OgixLtfMTxh2+64zZBgykc5QTXKGnkfR2B2EuFvfllEXFYzzmhXTWGOKN167lTAE46hSg0qQ==}
+  '@portabletext/editor@8.2.15':
+    resolution: {integrity: sha512-VerHYc5nA68yjKr8W1jmg0PQ8Dymqj4aF5PYvEzkbZQVakRJmtrX+dUUxN9/NSIwzeCq76cwN9DdsqUINFx94A==}
     engines: {node: '>=22.12'}
     peerDependencies:
       react: ^19.3.1
 
-  '@portabletext/html@2.0.2':
-    resolution: {integrity: sha512-9s69Dd2F5QjSHeiM11w+vnuYSjSDatXK3W033rpVCOG5AItVglFUmZzKh7UqAFeV6T9sTSjCfaX7lo2UesK6Uw==}
+  '@portabletext/html@2.0.3':
+    resolution: {integrity: sha512-SOiJjn0aYEIdo8sQ8YAPPAw1ErfaT3JOq4wDfeDEnHbeiEOGExt41KTTUNuMza6swShAcuITvneCaxfDVtAdiQ==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/keyboard-shortcuts@3.0.0':
-    resolution: {integrity: sha512-YsK/3mkFEVHs021S9EGA885p6eIe3XzFcARKD7scqtNaPBz7y579XXoa78kXe6XBLgiuKmB8eU3/Ucdnvi5SCA==}
+  '@portabletext/keyboard-shortcuts@3.0.1':
+    resolution: {integrity: sha512-d7GxT5JyX449OOII1Xf+pGn3tGNbnEHXCD7CTesi7SN9EqW5ILgBLoKp7yUcqsmcfnWJASx1B/uq54BXkW1s9w==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/patches@3.0.5':
-    resolution: {integrity: sha512-ItBZMdRSkoYPa0Mckv72lfLdMhku0H3EUTWftdh9JQpkKgUOQIYffuA0HqKBxGo3CNXU3SVLWe2UjNJACGRTFg==}
+  '@portabletext/patches@3.0.6':
+    resolution: {integrity: sha512-zVIz9zUD0UJhYyLEIqGXTTdvsiVmd0pRpwGoXr5U0zqAr8uRu/yu5zAHAeqZIAQJKnpcMWi3kPQYY0XokwByow==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/repair@1.0.3':
-    resolution: {integrity: sha512-zHTMVj31lk7dTGHqW4dzWUVWZczT+zdpgkxraozAtuZDDpkL3/vCLtxEox3wg2py1/jGZk+3hNHZXw+9ax6UXg==}
+  '@portabletext/repair@1.0.4':
+    resolution: {integrity: sha512-CQla0KrI9hTsGA3QgF+gs5ZQj58pyBpvud9pKZ7TjGFYYjocOL/kQ9EoQcAFJ1MX48w2NsdnZyn8IguEv+Lcig==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/schema@3.1.0':
-    resolution: {integrity: sha512-Th8x0I21GDDv+yQEqF1w/G9iuyLkFdUM424VSSCCdZRSnfor2m23m+GFdf3pVTte6TPOzu4Ku89FwqyRRJ2vxQ==}
+  '@portabletext/schema@3.1.1':
+    resolution: {integrity: sha512-GR6KBbTYS6YAc7b9rYecqRbLmhUXeGEOCvA3qUs6dKariACBhuBM+CUtakbwyrnioQknpOeI8J+jFOFJka3vXw==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/test@2.1.3':
-    resolution: {integrity: sha512-0pXOv5nASPMpeQlnphoGsOpP/mi/gX80hSbpAdqvtZ6hmeUNP9GWCwlOcGXJWAW4cVeEd28w+wPYbvaBNMs9fA==}
+  '@portabletext/test@2.1.4':
+    resolution: {integrity: sha512-+wtFLb7CYxqkL9Og6yD9Cv3d970Z2frSkE13uNQqDI281BOOJKqFjJ600+Qgiure+4djgaBKJvVW4zYSFTQx8Q==}
     engines: {node: '>=22.12'}
 
   '@portabletext/to-html@6.0.0':
@@ -4519,13 +4519,13 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@portabletext/editor@8.2.14(@types/react@19.2.17)(react@19.3.1)':
+  '@portabletext/editor@8.2.15(@types/react@19.2.17)(react@19.3.1)':
     dependencies:
-      '@portabletext/html': 2.0.2
-      '@portabletext/keyboard-shortcuts': 3.0.0
-      '@portabletext/patches': 3.0.5
-      '@portabletext/repair': 1.0.3
-      '@portabletext/schema': 3.1.0
+      '@portabletext/html': 2.0.3
+      '@portabletext/keyboard-shortcuts': 3.0.1
+      '@portabletext/patches': 3.0.6
+      '@portabletext/repair': 1.0.4
+      '@portabletext/schema': 3.1.1
       '@portabletext/to-html': 6.0.0
       '@sanity/diff-match-patch': 3.2.1
       '@xstate/react': 6.1.0(@types/react@19.2.17)(react@19.3.1)(xstate@5.33.2)
@@ -4536,27 +4536,27 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@portabletext/html@2.0.2':
+  '@portabletext/html@2.0.3':
     dependencies:
-      '@portabletext/schema': 3.1.0
+      '@portabletext/schema': 3.1.1
       '@vercel/stega': 1.1.0
 
-  '@portabletext/keyboard-shortcuts@3.0.0': {}
+  '@portabletext/keyboard-shortcuts@3.0.1': {}
 
-  '@portabletext/patches@3.0.5':
+  '@portabletext/patches@3.0.6':
     dependencies:
       '@sanity/diff-match-patch': 3.2.1
 
-  '@portabletext/repair@1.0.3':
+  '@portabletext/repair@1.0.4':
     dependencies:
-      '@portabletext/patches': 3.0.5
-      '@portabletext/schema': 3.1.0
+      '@portabletext/patches': 3.0.6
+      '@portabletext/schema': 3.1.1
 
-  '@portabletext/schema@3.1.0': {}
+  '@portabletext/schema@3.1.1': {}
 
-  '@portabletext/test@2.1.3':
+  '@portabletext/test@2.1.4':
     dependencies:
-      '@portabletext/schema': 3.1.0
+      '@portabletext/schema': 3.1.1
       '@textspec/notation': 1.0.2
 
   '@portabletext/to-html@6.0.0':
