@@ -17,8 +17,8 @@ importers:
   .:
     dependencies:
       '@portabletext/patches':
-        specifier: ^3.0.5
-        version: 3.0.5
+        specifier: ^4.0.0
+        version: 4.0.0
       '@sanity/diff-match-patch':
         specifier: ^3.2.1
         version: 3.2.1
@@ -1336,6 +1336,10 @@ packages:
 
   '@portabletext/patches@3.0.5':
     resolution: {integrity: sha512-ItBZMdRSkoYPa0Mckv72lfLdMhku0H3EUTWftdh9JQpkKgUOQIYffuA0HqKBxGo3CNXU3SVLWe2UjNJACGRTFg==}
+    engines: {node: '>=22.12'}
+
+  '@portabletext/patches@4.0.0':
+    resolution: {integrity: sha512-Qlp/605kEv6RUiSrDHz0kCyzwOKqzM9QMa68ZR4d1zZ1TCRI82y1Xu3n1g8wupqpNCC0GvVp7+OlzvVZCnGXAw==}
     engines: {node: '>=22.12'}
 
   '@portabletext/repair@1.0.3':
@@ -3618,12 +3622,15 @@ packages:
 
   yuku-ast@0.8.7:
     resolution: {integrity: sha512-h6+4bDfyootiMB9vckk5uKo5r5j0GHrkr17FQTDNfEsFT3DWlN9uu1HJwQwc64pgmLCI945fWM3lbTIqxjT3GQ==}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-codegen@0.8.3:
     resolution: {integrity: sha512-okdo5bb+TfebQa4JOjz9QxeT34D6CcBxu8dxaPUdFEKRdLkp+D2Fah2OanepK+XTyPXdmAJzAo9iXvYvZ/5rmg==}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-parser@0.8.7:
     resolution: {integrity: sha512-vRD9nwt4L3aYpxNqeSC4WqLv58xrXef0Ong1Mc45CTXTIpvLafx7JO05sczmQZwdLEZvywrLOGdNC5+Rp5N1BQ==}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   zod-validation-error@5.0.0:
     resolution: {integrity: sha512-hmk+pkyKq7Q71PiWVSDUc3VfpzpvcRHZ3QPw9yEMVvmtCekaMeOHnbr3WbxfrgEnQTv6haGP4cmv0Ojmihzsxw==}
@@ -4620,6 +4627,10 @@ snapshots:
   '@portabletext/keyboard-shortcuts@3.0.0': {}
 
   '@portabletext/patches@3.0.5':
+    dependencies:
+      '@sanity/diff-match-patch': 3.2.1
+
+  '@portabletext/patches@4.0.0':
     dependencies:
       '@sanity/diff-match-patch': 3.2.1
 
