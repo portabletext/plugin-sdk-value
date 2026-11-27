@@ -68,7 +68,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@portabletext/patches": "^3.0.5",
+    "@portabletext/patches": "^4.0.0",
     "@sanity/diff-match-patch": "^3.2.1",
     "@sanity/diff-patch": "^6.0.0",
     "@sanity/json-match": "^1.0.5",
