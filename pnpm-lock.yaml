@@ -17,8 +17,8 @@ importers:
   .:
     dependencies:
       '@portabletext/patches':
-        specifier: ^3.0.5
-        version: 3.0.5
+        specifier: ^3.0.7
+        version: 3.0.7
       '@sanity/diff-match-patch':
         specifier: ^3.2.1
         version: 3.2.1
@@ -48,14 +48,14 @@ importers:
         specifier: ^1.62.1
         version: 1.62.1
       '@portabletext/editor':
-        specifier: ^8.2.14
-        version: 8.2.14(@types/react@19.2.17)(react@19.3.1)
+        specifier: ^8.2.17
+        version: 8.2.17(@types/react@19.2.17)(react@19.3.1)
       '@portabletext/schema':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.1.2
+        version: 3.1.2
       '@portabletext/test':
-        specifier: ^2.1.3
-        version: 2.1.3
+        specifier: ^2.1.4
+        version: 2.1.4
       '@rexxars/bundle-stats':
         specifier: ^2.0.1
         version: 2.0.1
@@ -1320,34 +1320,38 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@portabletext/editor@8.2.14':
-    resolution: {integrity: sha512-j8vp8oNaRS+0D9OgixLtfMTxh2+64zZBgykc5QTXKGnkfR2B2EuFvfllEXFYzzmhXTWGOKN167lTAE46hSg0qQ==}
+  '@portabletext/editor@8.2.17':
+    resolution: {integrity: sha512-Cp3ylvj9sOmk57LDkeDR3+oXZb3r/O6EWi8V/zpWN3LAv0fiBK1dg4BCjHqZAxNQjfs9FwnQoKz04YPHBqhZtQ==}
     engines: {node: '>=22.12'}
     peerDependencies:
       react: ^19.3.1
 
-  '@portabletext/html@2.0.2':
-    resolution: {integrity: sha512-9s69Dd2F5QjSHeiM11w+vnuYSjSDatXK3W033rpVCOG5AItVglFUmZzKh7UqAFeV6T9sTSjCfaX7lo2UesK6Uw==}
+  '@portabletext/html@2.0.4':
+    resolution: {integrity: sha512-C/hcYwc2mJ/hIg4XPx3pi38md44svJRnTQpC7VAgeCVrXju1kRg347jWtccenVlfqI+4+yTi2MFNv0Y/AgcILg==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/keyboard-shortcuts@3.0.0':
-    resolution: {integrity: sha512-YsK/3mkFEVHs021S9EGA885p6eIe3XzFcARKD7scqtNaPBz7y579XXoa78kXe6XBLgiuKmB8eU3/Ucdnvi5SCA==}
+  '@portabletext/keyboard-shortcuts@3.0.2':
+    resolution: {integrity: sha512-S9E7wirl7zl/7vvMgl4lyufhUOh+4U1XJb1S6tnGhGInsrTBIxvW4tHym1TjMrCYaLd+4flT+KDMOd6ulNCU6w==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/patches@3.0.5':
-    resolution: {integrity: sha512-ItBZMdRSkoYPa0Mckv72lfLdMhku0H3EUTWftdh9JQpkKgUOQIYffuA0HqKBxGo3CNXU3SVLWe2UjNJACGRTFg==}
+  '@portabletext/patches@3.0.7':
+    resolution: {integrity: sha512-De0ZhMkFqJeVC/7W92aQufD3jNTpl+Iqzu0IOW68x2tLZXJ8kmmsNum2AK1nQFhLJjRtiG2hh2LqAJMnaLd91w==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/repair@1.0.3':
-    resolution: {integrity: sha512-zHTMVj31lk7dTGHqW4dzWUVWZczT+zdpgkxraozAtuZDDpkL3/vCLtxEox3wg2py1/jGZk+3hNHZXw+9ax6UXg==}
+  '@portabletext/patches@4.0.0':
+    resolution: {integrity: sha512-Qlp/605kEv6RUiSrDHz0kCyzwOKqzM9QMa68ZR4d1zZ1TCRI82y1Xu3n1g8wupqpNCC0GvVp7+OlzvVZCnGXAw==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/schema@3.1.0':
-    resolution: {integrity: sha512-Th8x0I21GDDv+yQEqF1w/G9iuyLkFdUM424VSSCCdZRSnfor2m23m+GFdf3pVTte6TPOzu4Ku89FwqyRRJ2vxQ==}
+  '@portabletext/repair@1.0.6':
+    resolution: {integrity: sha512-T5n1lC4I3qv/u04jjfXctnQSxIU8hcW9Le8DkU63dK40XzJC05l0dap2kwpjeo/8ohqzjbLmDtQvwT6wJygAmQ==}
     engines: {node: '>=22.12'}
 
-  '@portabletext/test@2.1.3':
-    resolution: {integrity: sha512-0pXOv5nASPMpeQlnphoGsOpP/mi/gX80hSbpAdqvtZ6hmeUNP9GWCwlOcGXJWAW4cVeEd28w+wPYbvaBNMs9fA==}
+  '@portabletext/schema@3.1.2':
+    resolution: {integrity: sha512-JCb5fyfp5vsUCmn5RiNYCQcjnAHraajhrqooK0qDPNt73fst07IQaLZTjFzm2PvHSh8J2mss+Vo1azJdbMJzuA==}
+    engines: {node: '>=22.12'}
+
+  '@portabletext/test@2.1.4':
+    resolution: {integrity: sha512-+wtFLb7CYxqkL9Og6yD9Cv3d970Z2frSkE13uNQqDI281BOOJKqFjJ600+Qgiure+4djgaBKJvVW4zYSFTQx8Q==}
     engines: {node: '>=22.12'}
 
   '@portabletext/to-html@6.0.0':
@@ -3618,12 +3622,15 @@ packages:
 
   yuku-ast@0.8.7:
     resolution: {integrity: sha512-h6+4bDfyootiMB9vckk5uKo5r5j0GHrkr17FQTDNfEsFT3DWlN9uu1HJwQwc64pgmLCI945fWM3lbTIqxjT3GQ==}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-codegen@0.8.3:
     resolution: {integrity: sha512-okdo5bb+TfebQa4JOjz9QxeT34D6CcBxu8dxaPUdFEKRdLkp+D2Fah2OanepK+XTyPXdmAJzAo9iXvYvZ/5rmg==}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-parser@0.8.7:
     resolution: {integrity: sha512-vRD9nwt4L3aYpxNqeSC4WqLv58xrXef0Ong1Mc45CTXTIpvLafx7JO05sczmQZwdLEZvywrLOGdNC5+Rp5N1BQ==}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   zod-validation-error@5.0.0:
     resolution: {integrity: sha512-hmk+pkyKq7Q71PiWVSDUc3VfpzpvcRHZ3QPw9yEMVvmtCekaMeOHnbr3WbxfrgEnQTv6haGP4cmv0Ojmihzsxw==}
@@ -4595,13 +4602,13 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@portabletext/editor@8.2.14(@types/react@19.2.17)(react@19.3.1)':
+  '@portabletext/editor@8.2.17(@types/react@19.2.17)(react@19.3.1)':
     dependencies:
-      '@portabletext/html': 2.0.2
-      '@portabletext/keyboard-shortcuts': 3.0.0
-      '@portabletext/patches': 3.0.5
-      '@portabletext/repair': 1.0.3
-      '@portabletext/schema': 3.1.0
+      '@portabletext/html': 2.0.4
+      '@portabletext/keyboard-shortcuts': 3.0.2
+      '@portabletext/patches': 4.0.0
+      '@portabletext/repair': 1.0.6
+      '@portabletext/schema': 3.1.2
       '@portabletext/to-html': 6.0.0
       '@sanity/diff-match-patch': 3.2.1
       '@xstate/react': 6.1.0(@types/react@19.2.17)(react@19.3.1)(xstate@5.33.2)
@@ -4612,27 +4619,31 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@portabletext/html@2.0.2':
+  '@portabletext/html@2.0.4':
     dependencies:
-      '@portabletext/schema': 3.1.0
+      '@portabletext/schema': 3.1.2
       '@vercel/stega': 1.1.0
 
-  '@portabletext/keyboard-shortcuts@3.0.0': {}
+  '@portabletext/keyboard-shortcuts@3.0.2': {}
 
-  '@portabletext/patches@3.0.5':
+  '@portabletext/patches@3.0.7':
     dependencies:
       '@sanity/diff-match-patch': 3.2.1
 
-  '@portabletext/repair@1.0.3':
+  '@portabletext/patches@4.0.0':
     dependencies:
-      '@portabletext/patches': 3.0.5
-      '@portabletext/schema': 3.1.0
+      '@sanity/diff-match-patch': 3.2.1
 
-  '@portabletext/schema@3.1.0': {}
-
-  '@portabletext/test@2.1.3':
+  '@portabletext/repair@1.0.6':
     dependencies:
-      '@portabletext/schema': 3.1.0
+      '@portabletext/patches': 4.0.0
+      '@portabletext/schema': 3.1.2
+
+  '@portabletext/schema@3.1.2': {}
+
+  '@portabletext/test@2.1.4':
+    dependencies:
+      '@portabletext/schema': 3.1.2
       '@textspec/notation': 1.0.2
 
   '@portabletext/to-html@6.0.0':
